@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_KEY = "8e9c0b0a54b148019d8d0eeafa275649"
+API_KEY = st.secrets["NEWS_API_KEY"]
 
 st.title("📰 AI News App")
 
